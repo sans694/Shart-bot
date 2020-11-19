@@ -1,0 +1,22 @@
+{
+  "name": "discord-music",
+  "version": "1.0.0",
+  "description": "a discord bot for playing music",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kristian",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/opus": "^0.3.3",
+    "discord-ytdl-core": "^4.1.5",
+    "discord.js": "^12.4.1",
+    "merge-options": "^3.0.3",
+    "moment": "^2.29.1",
+    "node-fetch": "^2.6.1",
+    "spotify-url-info": "^2.2.0",
+    "youtube-sr": "^1.0.7",
+    "ytpl": "^1.0.1"
+  }
+}
