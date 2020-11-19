@@ -1,5 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
+const config = require('./config.json')
 client.setMaxListeners(200);
 const prefix = "-"
 
@@ -255,4 +256,4 @@ client.on('message', message => {
 	}
 });
 
-client.login('NzcxODY0NDEzNjg2NTk1NjI2.X5yUwA.SHYd6L0mbrk1Cs8oKsQ7gXwbONQ');
+client.login(config.token);
