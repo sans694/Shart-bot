@@ -250,10 +250,4 @@ client.on('message', message => {
 	}
 });
 
-client.on('message', message => {
-	if (message.content === "delete") {
-		message.channel.delete({ timeout: 5 })
-	}
-});
-
 client.login(config.token);
